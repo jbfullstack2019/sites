@@ -1,0 +1,41 @@
+#header {
+	background-color: red;
+	height: 150px;
+	padding: 25px;
+}
+
+#header li {
+	display: inline;
+	margin: 5px;
+	background-color: gray;
+	padding: 5px;
+}
+
+#header ul {
+	display: inline;
+	float: right;
+}
+
+
+#sidebar{
+	background-color: green;
+	width: 35%;
+	float: left;
+	height: 650px;
+}
+
+#main{
+	background-color: blue;
+	width: 65%;
+	float: left;
+	height: 650px;
+}
+
+#footer{
+	background-color: pink;
+	height: 150px;
+	clear: both;
+}
+
+
+

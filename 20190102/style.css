@@ -1,0 +1,60 @@
+#header {
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#side {
+    width: 25%;
+    background-color: chartreuse;
+    float: left;
+    
+}
+
+#main {
+    width: 75%;
+    background-color: aqua;
+    float: left;
+}
+
+#footer {
+    width: 100%;
+    background-color: coral;
+    clear: both;
+}
+
+
+@media only screen and (max-width: 580px) {
+  #side {
+    width: 100%;
+    float: none;
+    }
+
+    #main {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+  #side {
+    display: none;
+    }
+}
+
+
+/*
+
+shalom
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: red;
+  }
+}
+
+*/

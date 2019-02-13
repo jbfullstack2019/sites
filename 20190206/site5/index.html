@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/mytask.js"></script>
+</head>
+
+<body onload="init()">
+
+  <div class="container-fluid">
+    <h1>Medium Grid</h1>
+    <p>The following example will result in a 25%/75% split on small devices and a 50%/50% split on medium (and large
+      and xlarge) devices. On extra small devices, it will automatically stack (100%).</p> 
+    <p>Resize the browser window to see the effect.</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+            <input id="myNumberToCath" type="number" class="form-control" placeholder="Insert number 1-300"  min="1" max="300">
+            <br>
+            <button onclick="myTask()" type="button" class="btn btn-info btn-block">Send Number To display 1 area</button>
+            <button onclick="nonono()" type="button" class="btn btn-danger btn-block">nonono</button>
+        </div>
+        <div class="col-sm-6">
+          <div class="text-center">
+            <h1 id="myNumberToShow" class="display-1"></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

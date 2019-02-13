@@ -1,0 +1,23 @@
+.aniadom {  /* class name */
+	color: red;
+}
+
+#footer p {  /* p inside id footer */
+	color: green;
+}
+
+#footer p a { /* a inside that also p inside id footer */
+	color: yellow;
+}
+
+p.aniadom {
+	font-size: 8px;
+}
+
+.anirekayarok {
+	background-color: orange;
+}
+
+p.aniadom.anirekayarok {
+	text-decoration: underline;
+}
